@@ -3,6 +3,7 @@
   <head>
     <meta charset = "utf-8">
     <title>Accueil</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
@@ -10,14 +11,22 @@
       <a href="Accueil.html"><img src="soutien-scolaire.png" class="logo"></a>
     </header>
 
-    <p>Notre association viendra en aide à vos enfants</p>
-    <a href="Matieres.html"> Nos matières </a>
+    <div class="container">
 
-    <h1>Notre prochain évènement:</h1>
-    <a href="Evenement.html"><img src="Evenement.png"></a>
+      <p class="text-start text-break">Notre association viendra en aide à vos enfants, nous mettrons à disposition de vos enfants des enseignants qui pourront les aider dans différentes matières.</p>
+      <a href="Matieres.html" class="btn btn-primary" role="button"> Nos matières </a>
+      <br /><br />
 
-    <p>Pour nous contacter, appelez le 01.23.45.67.89 ou envoyez nous un mail à soutienscolaire@gmail.com</p>
+      <div class="row">
+        <div class="jumbotron">
+          <h1>Notre prochain évènement:</h1>
+          <img src="Evenement.png">
+          <br /><br />
+          <br /><a class="btn btn-primary" href="Evenement.html" role="button">Accéder à l'évènement</a>
+        </div>
+      </div>
+      <p class="text-center text-break align-bottom">Pour nous contacter, appelez le 01.23.45.67.89 ou envoyez nous un mail à soutienscolaire@gmail.com</p>
+    </div>
 
  </body>
 </html>
-
